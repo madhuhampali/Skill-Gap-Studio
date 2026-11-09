@@ -1,0 +1,557 @@
+[
+  {
+    "role_id": "data_analyst",
+    "name": "Data Analyst",
+    "description": "Explore business data, answer questions, and communicate evidence with clear reports.",
+    "required_skills": [
+      {
+        "skill_id": "sql",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "statistics",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "excel",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "pandas",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "data_visualization",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "tableau",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "data_cleaning",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "business_analysis",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "ab_testing",
+        "importance_weight": 2,
+        "required_level": 2
+      }
+    ]
+  },
+  {
+    "role_id": "ml_engineer",
+    "name": "ML Engineer",
+    "description": "Build, test, and operationalize machine-learning systems and data products.",
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "scikit_learn",
+        "importance_weight": 5,
+        "required_level": 3
+      },
+      {
+        "skill_id": "feature_engineering",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "model_evaluation",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "sql",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "docker",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "ci_cd",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "cloud",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "data_structures",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      }
+    ]
+  },
+  {
+    "role_id": "backend_developer",
+    "name": "Backend Developer",
+    "description": "Design server-side applications, APIs, and reliable data services.",
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "rest_api",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "fastapi",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "sql",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "postgresql",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "testing",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "docker",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "data_structures",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "linux",
+        "importance_weight": 2,
+        "required_level": 2
+      }
+    ]
+  },
+  {
+    "role_id": "frontend_developer",
+    "name": "Frontend Developer",
+    "description": "Build accessible, responsive user interfaces for web applications.",
+    "required_skills": [
+      {
+        "skill_id": "html",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "css",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "javascript",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "typescript",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "react",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "accessibility",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "testing",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "ux_design",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "playwright",
+        "importance_weight": 2,
+        "required_level": 2
+      }
+    ]
+  },
+  {
+    "role_id": "devops_engineer",
+    "name": "DevOps Engineer",
+    "description": "Automate delivery and operate cloud infrastructure with reliable observability.",
+    "required_skills": [
+      {
+        "skill_id": "linux",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "cloud",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "docker",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "kubernetes",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "ci_cd",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "terraform",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "monitoring",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "networking",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "python",
+        "importance_weight": 2,
+        "required_level": 2
+      }
+    ]
+  },
+  {
+    "role_id": "cybersecurity_analyst",
+    "name": "Cybersecurity Analyst",
+    "description": "Monitor systems, investigate security signals, and help reduce technical risk.",
+    "required_skills": [
+      {
+        "skill_id": "cybersecurity",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "networking",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "linux",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "siem",
+        "importance_weight": 5,
+        "required_level": 3
+      },
+      {
+        "skill_id": "threat_modeling",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "owasp",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "cloud",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "python",
+        "importance_weight": 2,
+        "required_level": 2
+      },
+      {
+        "skill_id": "documentation",
+        "importance_weight": 3,
+        "required_level": 3
+      }
+    ]
+  },
+  {
+    "role_id": "qa_engineer",
+    "name": "QA Engineer",
+    "description": "Design and automate checks that give teams confidence in software quality.",
+    "required_skills": [
+      {
+        "skill_id": "testing",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "pytest",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "selenium",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "playwright",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "javascript",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "python",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "ci_cd",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "documentation",
+        "importance_weight": 2,
+        "required_level": 3
+      }
+    ]
+  },
+  {
+    "role_id": "data_scientist",
+    "name": "Data Scientist",
+    "description": "Use statistics and machine learning to model patterns and communicate findings.",
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "statistics",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "probability",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "pandas",
+        "importance_weight": 4,
+        "required_level": 4
+      },
+      {
+        "skill_id": "numpy",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "scikit_learn",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "data_visualization",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "feature_engineering",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "model_evaluation",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "sql",
+        "importance_weight": 3,
+        "required_level": 3
+      }
+    ]
+  },
+  {
+    "role_id": "full_stack_developer",
+    "name": "Full-Stack Developer",
+    "description": "Deliver features across browser interfaces, APIs, and persistent data stores.",
+    "required_skills": [
+      {
+        "skill_id": "javascript",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "html",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "css",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "react",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "nodejs",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "express",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "rest_api",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "sql",
+        "importance_weight": 3,
+        "required_level": 2
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "testing",
+        "importance_weight": 3,
+        "required_level": 3
+      }
+    ]
+  },
+  {
+    "role_id": "mobile_developer",
+    "name": "Mobile Developer",
+    "description": "Create mobile applications with usable interfaces and platform-aware features.",
+    "required_skills": [
+      {
+        "skill_id": "kotlin",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "android",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "swift",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "ios",
+        "importance_weight": 5,
+        "required_level": 4
+      },
+      {
+        "skill_id": "flutter",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "dart",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "mobile_design",
+        "importance_weight": 4,
+        "required_level": 3
+      },
+      {
+        "skill_id": "git",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "testing",
+        "importance_weight": 3,
+        "required_level": 3
+      },
+      {
+        "skill_id": "api_basics",
+        "importance_weight": 3,
+        "required_level": 2
+      }
+    ]
+  }
+]

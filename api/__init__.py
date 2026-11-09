@@ -1,0 +1,1 @@
+"""FastAPI service for skill matching and pathways."""

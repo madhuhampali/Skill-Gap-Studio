@@ -1,0 +1,11 @@
+.venv/
+.venv-system/
+Skill-Gap-Studio/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/*.csv
+data/*.json
+data/*.sqlite
+data/*.db
+data/*.joblib
