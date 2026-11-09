@@ -6,9 +6,14 @@ import json
 import csv
 from io import StringIO
 from pathlib import Path
+import sys
 
 import plotly.graph_objects as go
 import streamlit as st
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.matching import analyze_student
 from src.recommend import recommend_learning_pathway
@@ -17,7 +22,6 @@ from src.resume_parser import extract_resume_text, infer_resume_skills
 from src.skills_catalog import ROLE_BY_ID, ROLES, SKILL_BY_ID
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = PROJECT_ROOT / "data" / "students.csv"
 
 st.set_page_config(page_title="Skill Gap Studio", layout="wide")
